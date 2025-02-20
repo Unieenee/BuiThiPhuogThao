@@ -1,0 +1,10 @@
+<h1> Dữ liệu từ Controller gửi về là: @ViewBag.infoPerson </h1>
+<form asp-action="Index">
+    <label>Nhập PersonID</label>
+    <input type="text" name="PersonID">
+    <label>Nhập họ tên: </label>
+    <input type="text" name="FullName">
+    <label>Nhập địa chỉ: </label>
+    <input type="text" name="Address">
+    <input type="submit" value="Gửi dữ liệu">
+</form>
