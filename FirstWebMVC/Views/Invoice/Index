@@ -1,0 +1,47 @@
+
+@{
+    ViewData["Title"] = "Tính tiền hóa đơn";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-success text-white text-center">
+                    <h3 class="mb-0">💰 Tính tiền hóa đơn</h3>
+                </div>
+
+                <div class="card-body">
+                    <form method="get">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Số lượng:</label>
+                            <input type="number" name="quantity" class="form-control" min="1" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Đơn giá (VND):</label>
+                            <input type="number" step="0.01" name="unitPrice" class="form-control" min="1000" required />
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-lg btn-success px-4">
+                                <i class="fas fa-calculator"></i> Tính tiền
+                            </button>
+                        </div>
+                    </form>
+
+                    @if (ViewBag.Total != null)
+                    {
+                        <div class="alert alert-info mt-4 text-center">
+                            <h4 class="fw-bold text-primary">@ViewBag.Total</h4>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thêm Bootstrap & FontAwesome -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>

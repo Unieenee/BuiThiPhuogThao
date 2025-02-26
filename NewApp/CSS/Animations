@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-container">
+  <h1>PTPMQL - 04 -  Bùi Thị Phương Thảo</h1>
+  <p>Use the w3-spin class to spin an element 360 degrees:</p>
+  <p><i class="fa fa-spinner w3-spin" style="font-size:64px"></i></p>
+</div>
+<div class="w3-container w3-center w3-animate-zoom">
+  <h1>PTPMQL - 04 -  Bùi Thị Phương Thảo</h1>
+  <p>The w3-animate-zoom class zooms in an element (from 0% to 100% in size).</p>
+  <img src="img_car.jpg" alt="Car" style="width:100%">
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0914061483</title>
+  </head>
+  <body>
+    <h1>Bùi Thị Phương Thảo</h1>
+    <p>2121051369</p>
+    <p><b>This text is bold</b></p>
+    <p><i>This text is italic</i></p>
+    <p>
+      This is<sub> thụt xuống dùng sub</sub> and <sup>thụt lên dùng sup</sup>
+    </p>
+    <b>Bôi đậm</b><br />
+    <strong>nội dung quan trọng dùng strong!</strong><br />
+    <i>Kiểu nghiêng</i><br />
+    <em
+      >Trình đọc màn hình sẽ phát âm các từ trong "em" với trọng âm, sử dụng
+      trọng âm bằng lời nói.
+    </em>
+    <small>Chữ nhỏ</small>
+    <p>Do not forget to buy <mark>highlight một đoạn dùng mark</mark> today.</p>
+    <p>My favorite color is <del>gạch giữa chữ dùng del</del> red.</p>
+    <p>My favorite color is <del>blue</del> <ins>ins để gạch chân</ins>.</p>
+    <p>This is <sub>subscripted</sub> text đi xuống.</p>
+    <p>This is <sup>superscripted</sup> text đi lên.</p>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+<h2>PTPMQL - 04 -  Bùi Thị Phương Thảo
+</h2>
+
+<div class="w3-bar w3-black">
+  <div class="w3-bar-item">London</div>
+  <div class="w3-bar-item">Paris</div>
+  <div class="w3-bar-item">Tokyo</div>
+</div>
+<br>
+<div class="w3-bar w3-red">
+  <div class="w3-bar-item">London</div>
+  <div class="w3-bar-item">Paris</div>
+  <div class="w3-bar-item">Tokyo</div>
+</div>
+<br>
+<div class="w3-bar-block w3-black" style="width:120px">
+  <a href="#" class="w3-bar-item w3-hover-green">London</a>
+  <a href="#" class="w3-bar-item w3-hover-green">Paris</a>
+  <a href="#" class="w3-bar-item w3-hover-green">Tokyo</a>
+</div>
+<br>
+<div class="w3-bar-block w3-red" style="width:120px">
+  <div class="w3-bar-item">London</div>
+  <div class="w3-bar-item">Paris</div>
+  <div class="w3-bar-item">Tokyo</div>
+</div>
+
+</div>
+</body>
+</html>

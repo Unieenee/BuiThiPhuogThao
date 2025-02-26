@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0914061483</title>
+  </head>
+  <body>
+    <h1>Bùi Thị Phương Thảo</h1>
+    <p>2121051369</p>
+    <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="Colors.html"
+      />
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="CSS.html" />
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="Links.html" />
+    </map>
+    <map name="workmap">
+      <area
+        shape="circle"
+        coords="337,300,44"
+        href="coffee.htm"
+        onclick="myFunction()"
+      />
+    </map>
+
+    <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0914061483</title>
+  </head>
+  <body>
+    <h1>Bùi Thị Phương Thảo</h1>
+    <p>2121051369</p>
+    <h2>The picture Element</h2>
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="img/workplace.jpg" />
+      <source media="(min-width: 465px)" srcset="img/imgBT.jpg" />
+      <img src="img/img_food.jpg" style="width: auto" />
+    </picture>
+
+    <p>
+      我曾经捡到一束光，日落时，还给太阳了
+    </p>
+
+    <p>
+      The img element is required as the last child tag of the picture
+      declaration block. The img element is used to provide backward
+      compatibility for browsers that do not support the picture element, or if
+      none of the source tags matched.
+    </p>
+  </body>
+</html>
