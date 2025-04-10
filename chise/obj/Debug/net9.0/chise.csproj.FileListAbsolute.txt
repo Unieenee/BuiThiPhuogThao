@@ -1387,7 +1387,6 @@ D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Cryptography.Enco
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Cryptography.OpenSsl.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Cryptography.Primitives.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Cryptography.X509Certificates.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Cryptography.Xml.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Principal.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\refs\System.Security.Principal.Windows.dll
@@ -1429,7 +1428,6 @@ D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Azure.Core.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Azure.Identity.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\EPPlus.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\EPPlus.Interfaces.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\EPPlus.System.Drawing.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Humanizer.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -1477,7 +1475,6 @@ D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.Open
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\Mono.TextTemplating.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\SQLitePCLRaw.core.dll
@@ -1490,8 +1487,6 @@ D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Composition.Hosting.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Composition.Runtime.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Composition.TypedParts.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Drawing.Common.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Private.Windows.Core.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Formats.Asn1.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Memory.Data.dll
@@ -1571,7 +1566,6 @@ D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
 D:\BuiThiPhuogThao\chise\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -2474,3 +2468,4 @@ D:\BuiThiPhuogThao\BTPT\chise\obj\Debug\net9.0\refint\chise.dll
 D:\BuiThiPhuogThao\BTPT\chise\obj\Debug\net9.0\chise.pdb
 D:\BuiThiPhuogThao\BTPT\chise\obj\Debug\net9.0\chise.genruntimeconfig.cache
 D:\BuiThiPhuogThao\BTPT\chise\obj\Debug\net9.0\ref\chise.dll
+d:\BuiThiPhuogThao\chise\bin\Debug\net9.0\System.Security.Cryptography.Xml.dll

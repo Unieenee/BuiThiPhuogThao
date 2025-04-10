@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BuiThiPhuogThao\\BTPT\\chise\\chise.csproj": {}
+    "D:\\BuiThiPhuogThao\\chise\\chise.csproj": {}
   },
   "projects": {
-    "D:\\BuiThiPhuogThao\\BTPT\\chise\\chise.csproj": {
+    "D:\\BuiThiPhuogThao\\chise\\chise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BuiThiPhuogThao\\BTPT\\chise\\chise.csproj",
+        "projectUniqueName": "D:\\BuiThiPhuogThao\\chise\\chise.csproj",
         "projectName": "chise",
-        "projectPath": "D:\\BuiThiPhuogThao\\BTPT\\chise\\chise.csproj",
+        "projectPath": "D:\\BuiThiPhuogThao\\chise\\chise.csproj",
         "packagesPath": "C:\\Users\\Phuong thao\\.nuget\\packages\\",
-        "outputPath": "D:\\BuiThiPhuogThao\\BTPT\\chise\\obj\\",
+        "outputPath": "D:\\BuiThiPhuogThao\\chise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phuong thao\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,7 +46,7 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[7.7.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",

@@ -37,7 +37,7 @@
     ".NETCoreApp,Version=v9.0": {
       "chise/1.0.0": {
         "dependencies": {
-          "EPPlus": "7.7.0",
+          "EPPlus": "8.0.1",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "9.0.3",
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.Design": "9.0.3",
@@ -291,7 +291,6 @@
           "System.Security.Cryptography.OpenSsl": "9.0.0.0",
           "System.Security.Cryptography.Primitives": "9.0.0.0",
           "System.Security.Cryptography.X509Certificates": "9.0.0.0",
-          "System.Security.Cryptography.Xml": "9.0.0.0",
           "System.Security": "4.0.0.0",
           "System.Security.Principal": "9.0.0.0",
           "System.Security.Principal.Windows.Reference": "9.0.0.0",
@@ -378,49 +377,35 @@
           "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
-      "EPPlus/7.7.0": {
+      "EPPlus/8.0.1": {
         "dependencies": {
-          "EPPlus.System.Drawing": "7.7.0",
+          "EPPlus.Interfaces": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "9.0.3",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Security.Cryptography.Pkcs": "9.0.3",
+          "System.Security.Cryptography.Xml": "9.0.3",
           "System.Text.Encoding.CodePages": "9.0.3"
         },
         "runtime": {
           "lib/net9.0/EPPlus.dll": {
-            "assemblyVersion": "7.7.0.0",
-            "fileVersion": "7.7.0.0"
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
           }
         },
         "compile": {
           "lib/net9.0/EPPlus.dll": {}
         }
       },
-      "EPPlus.Interfaces/7.7.0": {
+      "EPPlus.Interfaces/8.0.0": {
         "runtime": {
           "lib/net9.0/EPPlus.Interfaces.dll": {
-            "assemblyVersion": "7.7.0.0",
-            "fileVersion": "7.7.0.0"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
           }
         },
         "compile": {
           "lib/net9.0/EPPlus.Interfaces.dll": {}
-        }
-      },
-      "EPPlus.System.Drawing/7.7.0": {
-        "dependencies": {
-          "EPPlus.Interfaces": "7.7.0",
-          "System.Drawing.Common": "9.0.1"
-        },
-        "runtime": {
-          "lib/net9.0/EPPlus.System.Drawing.dll": {
-            "assemblyVersion": "7.7.0.0",
-            "fileVersion": "7.7.0.0"
-          }
-        },
-        "compile": {
-          "lib/net9.0/EPPlus.System.Drawing.dll": {}
         }
       },
       "Humanizer/2.14.1": {
@@ -2417,25 +2402,6 @@
           "lib/net8.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
         }
       },
-      "Microsoft.Win32.SystemEvents/9.0.1": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        },
-        "compile": {
-          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {}
-        }
-      },
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "6.0.0"
@@ -2865,25 +2831,6 @@
         }
       },
       "System.Diagnostics.EventLog/8.0.0": {},
-      "System.Drawing.Common/9.0.1": {
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "9.0.1"
-        },
-        "runtime": {
-          "lib/net9.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61006"
-          },
-          "lib/net9.0/System.Private.Windows.Core.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61006"
-          }
-        },
-        "compile": {
-          "lib/net9.0/System.Drawing.Common.dll": {},
-          "lib/net9.0/System.Private.Windows.Core.dll": {}
-        }
-      },
       "System.Formats.Asn1/9.0.3": {
         "runtime": {
           "lib/net9.0/System.Formats.Asn1.dll": {
@@ -3007,6 +2954,20 @@
         },
         "compile": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Xml/9.0.3": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "9.0.3"
+        },
+        "runtime": {
+          "lib/net9.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
+          }
+        },
+        "compile": {
+          "lib/net9.0/System.Security.Cryptography.Xml.dll": {}
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
@@ -4531,12 +4492,6 @@
         },
         "compileOnly": true
       },
-      "System.Security.Cryptography.Xml/9.0.0.0": {
-        "compile": {
-          "System.Security.Cryptography.Xml.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Security/4.0.0.0": {
         "compile": {
           "System.Security.dll": {}
@@ -4781,26 +4736,19 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
-    "EPPlus/7.7.0": {
+    "EPPlus/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-D/7nyy9V8yeOjcl2YYJQye7ME3Nvm9lghw9k4Ca6YajF4WW8abM1nngnzyCf/BPn745krUNcU7bDxJBpzZfPtA==",
-      "path": "epplus/7.7.0",
-      "hashPath": "epplus.7.7.0.nupkg.sha512"
+      "sha512": "sha512-Lk46SFgp9P58+SB8ZHhsAmXlw3skC3+Ky2Nd3xmB+R01z7ZK8AUxivkOg20PZ/O94xMLqQxmORRH5tRr2JmKew==",
+      "path": "epplus/8.0.1",
+      "hashPath": "epplus.8.0.1.nupkg.sha512"
     },
-    "EPPlus.Interfaces/7.7.0": {
+    "EPPlus.Interfaces/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vJO30Vzv4aVWKn8JO7THU+Glh1dfx8QjlpEDq47FmxwlMtT6L43EsLrh9h0G72TpNA1+5u9yNHYc5IANOnWbbg==",
-      "path": "epplus.interfaces/7.7.0",
-      "hashPath": "epplus.interfaces.7.7.0.nupkg.sha512"
-    },
-    "EPPlus.System.Drawing/7.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IVqhg8JYcQy11q3ecZ23x07uvJnXk33hu8w5UfVqvEMEuFXBLlU7COGaHG3i7w23uTnoj9eAOnCdSKjLIbcflw==",
-      "path": "epplus.system.drawing/7.7.0",
-      "hashPath": "epplus.system.drawing.7.7.0.nupkg.sha512"
+      "sha512": "sha512-EFr/vUbDYK55sxjfUfLUiv7oiz1f6ZLRYMKILHyfnWS019cYX5zJaQ1U3OojRuED8tgEeXX9QeG7Kj/b0XE7hQ==",
+      "path": "epplus.interfaces/8.0.0",
+      "hashPath": "epplus.interfaces.8.0.0.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -5642,13 +5590,6 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/9.0.0",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.9.0.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OxjcwJqBW/5A1111+vL9d+5KYTvOzeCTJY9zHZ0kpQI4wX075p6L7inHPSYuf0MGakVjUvaShvw9e9pfbInU2Q==",
-      "path": "microsoft.win32.systemevents/9.0.1",
-      "hashPath": "microsoft.win32.systemevents.9.0.1.nupkg.sha512"
-    },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5852,13 +5793,6 @@
       "path": "system.diagnostics.eventlog/8.0.0",
       "hashPath": "system.diagnostics.eventlog.8.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TTPkCqSMyMaG8BXlBKYTTJFtLV0SvjjsvgUN598hYgHaX/5B7tdUc2JhQF9vwrYmlzxId+gwFnKYuxQ2XsSz2g==",
-      "path": "system.drawing.common/9.0.1",
-      "hashPath": "system.drawing.common.9.0.1.nupkg.sha512"
-    },
     "System.Formats.Asn1/9.0.3": {
       "type": "package",
       "serviceable": true,
@@ -5956,6 +5890,13 @@
       "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
       "path": "system.security.cryptography.protecteddata/8.0.0",
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPG84G5/szhNQ8utXUB4NmrJLGvFe8yd4P0MFjy0/VNxkQNGR6CkkLjptkO5b5rcnw/4c2xDKcrwLxgc1zKWgg==",
+      "path": "system.security.cryptography.xml/9.0.3",
+      "hashPath": "system.security.cryptography.xml.9.0.3.nupkg.sha512"
     },
     "System.Security.Principal.Windows/5.0.0": {
       "type": "package",
@@ -7239,11 +7180,6 @@
       "sha512": ""
     },
     "System.Security.Cryptography.X509Certificates/9.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Security.Cryptography.Xml/9.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

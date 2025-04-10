@@ -1,6 +1,12 @@
-namespace  chise.Models{
-    public class InvoiceModel{
-         public double Quantity { get; set; } 
-         public double? UnitPrice { get; set; } 
+namespace  chise.Models
+{    public class InvoiceModel
+    {
+        public int Quantity { get; set; } // Số lượng
+        public double Price { get; set; } // Đơn giá
+
+        public double CalculateTotal()
+        {
+            return Quantity * Price;
+        }
     }
 }
