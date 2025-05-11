@@ -1,22 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.JSInterop.Infrastructure;
 using chise.Models;
+using chise.Models;
 
 namespace chise.Controllers
 {
     public class InvoiceController : Controller
     {
-        [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(double quantity = 0, double unitPrice = 0)
         {
-            return View();
-        }
+            var model = new InvoiceModel
+            {
+                Quantity = quantity,
+                UnitPrice = unitPrice
+            };
 
-        [HttpPost]
-        public IActionResult Index(InvoiceModel model)
-        {
-            ViewBag.TotalPrice = model.CalculateTotal();
-            return View(model);
+            ViewBag.Total = $"có  {model.Quantity} với giá {model.UnitPrice}"; // Gọi Index() thay vì CalculateTotal()
+            return View();
         }
     }
 }

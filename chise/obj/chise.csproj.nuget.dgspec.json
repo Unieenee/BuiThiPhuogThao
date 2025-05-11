@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BuiThiPhuogThao\\chise\\chise.csproj": {}
+    "D:\\PhatTrienPhanMenQL\\BuiThiPhuogThao\\chise\\chise.csproj": {}
   },
   "projects": {
-    "D:\\BuiThiPhuogThao\\chise\\chise.csproj": {
+    "D:\\PhatTrienPhanMenQL\\BuiThiPhuogThao\\chise\\chise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BuiThiPhuogThao\\chise\\chise.csproj",
+        "projectUniqueName": "D:\\PhatTrienPhanMenQL\\BuiThiPhuogThao\\chise\\chise.csproj",
         "projectName": "chise",
-        "projectPath": "D:\\BuiThiPhuogThao\\chise\\chise.csproj",
+        "projectPath": "D:\\PhatTrienPhanMenQL\\BuiThiPhuogThao\\chise\\chise.csproj",
         "packagesPath": "C:\\Users\\Phuong thao\\.nuget\\packages\\",
-        "outputPath": "D:\\BuiThiPhuogThao\\chise\\obj\\",
+        "outputPath": "D:\\PhatTrienPhanMenQL\\BuiThiPhuogThao\\chise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phuong thao\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -46,21 +46,21 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[7.7.0, )"
             },
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -74,7 +74,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

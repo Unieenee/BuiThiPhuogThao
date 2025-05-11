@@ -4,15 +4,18 @@
     ViewData["Title"] = "Create";
 }
 
-<h6><b>Create new Person</b></h6>
+<h1>Create</h1>
+<h4>Person</h4>
+<hr />
 <form asp-action="Upload" enctype="multipart/form-data">
     <div class="row form-control">
-        <label for="file" class="col-sm-2">Upload Excel File: </label>
-        <input type="file" name="file" class="col-sm-4" required />
-        <input type="submit" value="Upload" class="btn btn-success col-sm-1" />
+        <label class="col-sm-2">Import data from Excel: </label>
+        <input type="file" name="file" class="col-sm-4">
+        <input type="submit" value="Upload" class="btn btn-primary col-sm-1">
     </div>
 </form>
 <hr />
+
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -44,7 +47,5 @@
 </div>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
- }
+    @{ await Html.PartialAsync("_ValidationScriptsPartial"); }
+}

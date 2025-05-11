@@ -1,20 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using chise.Models;
-
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 namespace chise.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
-        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<chise.Models.Person> Person { get; set; } = default!;
-        public DbSet<chise.Models.Employee> Employee { get; set; } = default!;
+        public DbSet<Person> Person { get; set; }
+        public DbSet<Employee> Employee { get; set; }
+        public DbSet<Student> Student { get; set; }
     }
 }
