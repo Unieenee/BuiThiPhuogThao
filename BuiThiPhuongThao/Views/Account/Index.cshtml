@@ -1,0 +1,56 @@
+@using BuiThiPhuongThao.Models
+@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<UserWithRole>
+<h1>Người dùng</h1>
+<div class="my-3 p-3 bg-body rounded shadow-sm">
+<table class="table table-bordered table-hover">
+    <thead class=" text-center">
+        <tr>
+            <th>Người dùng</th>
+            <th>Quyền</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model == null || !Model.Any())
+        {
+            <tr>
+                <td colspan="3" class="text-center">
+                    <em>Không có dữ liệu</em>
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.User?.UserName</td>
+                 
+                    <td>
+                        @if (item.Role.Any())
+                        {
+                            @foreach (var role in item.Role)
+                            {
+                                <span class="badge bg-success me-1">@role</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa có quyền</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <a asp-controller="Account" class="btn btn-sm btn-primary"
+                           asp-action="AssignRole"
+                           asp-route-UserId="@item.User?.Id"
+                           onclick="return confirm('Bạn có chắc muốn thêm quyền cho @item.User?.UserName không?')">
+                            <i class="bi bi-person-plus"></i> Thêm quyền
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+</div>
